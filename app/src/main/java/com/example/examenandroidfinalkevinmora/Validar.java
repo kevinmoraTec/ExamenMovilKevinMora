@@ -35,13 +35,19 @@ public class Validar extends AppCompatActivity {
         ////Para calcular el tamaño de la cadena Ingresada
         tvValorIngresado.setText("VALOR Ingresado ="+valorIngresado);
         int valorCalculadoLetras=calclarTamañodePalabra(valorIngresado);
-        //tvResult.setText("tamaño es : "+valorCalculadoLetras);
+        tvResult.setText("tamaño es : "+valorCalculadoLetras);
         ////Para calcular el Color Ingresado.
         String[ ] nombre = {"amaraillo", "azul","rojo"};
 
-        if (nombre[2].equals("amaraillo")){
+        if (nombre[2].equals("rojo")){
             tvResult.setText("Color Rojo : Ganaste");
-
+            getResources().getColor(R.color.colorAccent);
+        }else if(nombre[2].equals("amarillo")){
+            tvResult.setText("Color Amarillo : Ganaste");
+            getResources().getColor(R.color.colorAmariloo);
+        }else if(nombre[2].equals("azul")){
+            tvResult.setText("Color azul : Ganaste");
+            getResources().getColor(R.color.colorAzul);
         }
 
 

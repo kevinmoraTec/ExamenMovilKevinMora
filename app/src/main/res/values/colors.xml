@@ -10,4 +10,7 @@
         <color name="colorPrimary">#008577</color>
         <color name="colorPrimaryDark">#00574B</color>
         <color name="colorAccent">#D81B60</color>
-    </resources>
+    <color name="colorAmariloo">#E1BF48</color>
+    <color name="colorAzul">#1927A6</color>
+
+</resources>
