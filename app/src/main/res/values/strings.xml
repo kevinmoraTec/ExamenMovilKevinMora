@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Prueba</string>
+
+
+    <string-array name="spinner_data">
+        <item>Colores</item>
+        <item>Cantidad de letras</item>
+    </string-array>
+    <string name="regresar">REGRESAR</string>
+</resources>
